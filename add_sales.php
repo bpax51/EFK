@@ -104,7 +104,7 @@ include_once("init.php");
                             $date = mysqli_real_escape_string($db->connection, $_POST['date']);
                             $description = mysqli_real_escape_string($db->connection, $_POST['description']);
                             $addReturn = false;
-                            if (strtolower($customer)=="transfert de Depot" OR strtolower($customer)=="ventes depots") {
+                            if (strtolower($customer)=="transfert de depot" OR strtolower($customer)=="ventes depot" OR strtolower($customer)=="dons") {
                                 $addReturn = true;
                             }
                             $selected_date = $_POST['date'];
@@ -232,7 +232,7 @@ include_once("init.php");
                             <tr>
                                 <td>
                                     <input class="button round blue image-right ic-add text-upper" type="submit"
-                                           name="Submit" value="Ajouter" onclick="return checkValid(this);" <?php echo ($_SESSION['username'] != 'mustapha')? "disabled":""; ?>>
+                                           name="Submit" value="Ajouter" onclick="return checkValid(this);" <?php echo ($_SESSION['username'] != 'nabila')? "disabled":""; ?>>
                                 </td>
                                 <td> (Controle + S)
                                     </td>

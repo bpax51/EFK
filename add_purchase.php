@@ -248,7 +248,7 @@ include_once("init.php");
                                     <tr>
                                         <td>
                                             <input class="button round blue image-right ic-add text-upper" type="submit"
-                                                   name="Submit" value="Ajouter" onclick="return checkValid(this);" <?php echo ($_SESSION['username'] != 'mustapha')? "disabled":""; ?>>
+                                                   name="Submit" value="Ajouter" onclick="return checkValid(this);" <?php echo ($_SESSION['username'] != 'nabila')? "disabled":""; ?>>
                                         </td>
                                         <td> (Controle + S)
                                            </td>

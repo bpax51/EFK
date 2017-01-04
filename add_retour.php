@@ -257,7 +257,7 @@ include_once("init.php");
                             </tr>
                                 <tr>
                                 <td>
-                                    <input class="button round blue image-right ic-add text-upper" type="submit" name="Submit" value="Ajouter" <?php echo ($_SESSION['username'] != 'mustapha')? "disabled":""; ?>>
+                                    <input class="button round blue image-right ic-add text-upper" type="submit" name="Submit" value="Ajouter" <?php echo ($_SESSION['username'] != 'nabila')? "disabled":""; ?>>
                                 </td>
                                 <td> &nbsp;</td>
                                 <td> <input class="button round red text-upper" type="reset" id="Reset" name="Reset" value="Réinitialiser"></td>
