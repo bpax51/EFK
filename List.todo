@@ -1,0 +1,50 @@
+TODO Stuff:
+  PAGES COMPLETED:
+    ✔ Add Categorie JS/PHP @done (16-12-12 00:05)
+    ✔ Add Supplier JS/PHP @done (16-12-12 00:08)
+    ✔ Add Stock JS/PHP  @done (16-12-12 00:50)
+       ✔ Do not allow other values than suggested in Supplier & Category fields @done (16-12-13 21:30)
+    ✔ View Category PHP/JS @done (16-12-12 02:01)
+      ✔ Enable Pagination for search results @done (16-12-12 02:01)
+    ✔ View Product PHP/JS @done (16-12-12 03:46)
+    ✔ Update Category @done (16-12-12 18:39)
+    ✔ Update product @done (16-12-12 18:39)
+    ✔ View Stock Available @done (16-12-13 18:34)
+    ☐ Edit/Delete Message handling in all pages
+    ☐ keep log of everything done and who did it
+    ☐ add gump support to update pages
+    ☐ When updating Category do not allow duplicates
+    ☐ When updating article do not allow duplicates
+    ☐ Add purchase handle errors or success inserting in DB
+    ☐ Enable Same Article Multiple Lots when adding entry or sale
+    ☐ ADD Lot Support - Total shown by lot number not by article
+    ☐ Check if nLot is unique, if not alrt so
+    ☐ add new option; choose day and commercial and show report of sold items
+    ☐ Add date inserted in view entries ans outs
+    ☐ highlight nlot when not unique
+    ☐ update stock read only name, same for supplier and commercial
+    ☐ update_stock -> autocomplete on category field
+    ☐ view sale and view purchase should display the real datetime added
+    ☐ show description when printing sales
+    ☐ make fields unsigned
+    ADD Sortie
+        ☐ After choosing the item and numLot the quantity should display the available in the stock.
+    Reports:
+        ☐ stock available by date.
+        ☐ Filter by article
+ ☐ Check database tables
+ ☐ add transactions support for add sales and add purchases
+ ☐ update stock available page
+ ☐ fix form validation for search in add retour
+ ☐ add php validation with gump for add sales and add retour
+ ☐ sortie and entrie do not allow 0 values in quantity
+ ☐ add more  php validation equivalent to js validation for add sales and purchases page
+ ☐ before adding retour check if already added..
+ ☐ check_unique_lot added and type = 'entry'. check if correct
+ ☐ adding sortie from a different date.
+ ☐ add purchase and sale, select max id from entries sorties
+ ☐ add date to stock available
+ ☐ add checkbox vente
+ ☐ in ventes_per_date recheck which date field should i depend on
+ ☐ when inerting retour add date of initial out, and show bretour with exact retour date
+ ☐ fix auto id and fix 
